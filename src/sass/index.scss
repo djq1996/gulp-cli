@@ -1,8 +1,8 @@
 /*-------------------变量*/
-$bg-color: #F90;
+$bg-color: #333;
 $highlight-color: #F90;
 h1 {
-  $width: 1000px;/*局部变量*/
+  $width: 100%;/*局部变量*/
   $w10:10px;
   margin:$w10 auto;
   text-align: center;

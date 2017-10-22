@@ -4,8 +4,8 @@ h1 {
   /*局部变量*/
   margin: 10px auto;
   text-align: center;
-  width: 1000px;
-  color: #F90; }
+  width: 100%;
+  color: #333; }
 
 .selected {
   border: 1px solid #F90; }
