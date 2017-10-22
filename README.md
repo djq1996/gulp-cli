@@ -16,9 +16,9 @@ browser-sync
 npm install
 ```
 
-##  可运转的web开发服务
-##	使用Sass预处理器
-##	自动刷新浏览器
+## 可运转的web开发服务
+## 使用Sass预处理器
+## 自动刷新浏览器
 ```bash
 gulp watch
 ```
