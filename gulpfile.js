@@ -33,7 +33,7 @@ gulp.task('message',function(){
 
 /*文件复制  复制移动*/
 gulp.task('cloneFile',function(){
-	gulp.src(['./src/{css,js,lib,fonts,page}/*','./src/*.html'])
+	gulp.src(['./src/{css,js,lib,fonts,page}/**/*','./src/*.html'])
 		.pipe(gulp.dest('./dist'))
 		
 });

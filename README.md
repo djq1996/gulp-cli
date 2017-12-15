@@ -5,11 +5,13 @@ web 自动化构建工具
 1.0.0
 
 ### gulp 工具
-gulp-imagemin
-gulp-concat
-gulp-uglify
-gulp-sass
+del  
+gulp-imagemin  
+gulp-concat  
+gulp-uglify  
+gulp-sass  
 browser-sync
+
 
 ### 下载依赖插件
 ```bash

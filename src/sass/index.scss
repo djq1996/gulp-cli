@@ -1,3 +1,5 @@
+/*-------------------导入reset------------*/
+@import 'reset';
 /*-------------------变量*/
 $bg-color: #333;
 $highlight-color: #F90;
@@ -116,6 +118,3 @@ aside[role="complimentary"] {
   float: right;
   width: 300px / 960px * 100%;
 }
-
-/*-------------------导入reset------------*/
-@import 'reset';

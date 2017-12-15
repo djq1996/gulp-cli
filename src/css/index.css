@@ -1,90 +1,4 @@
 @charset "UTF-8";
-/*-------------------变量*/
-h1 {
-  /*局部变量*/
-  margin: 10px auto;
-  text-align: center;
-  width: 100%;
-  color: #333; }
-
-.selected {
-  border: 1px solid #F90; }
-
-/*-------------------嵌套*/
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-nav li {
-  display: inline-block; }
-
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none; }
-
-/*-------------------混合*/
-ul.plain {
-  color: #444;
-  list-style: none; }
-  ul.plain li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0px; }
-
-/*-------------------传参*/
-a {
-  color: blue; }
-  a:hover {
-    color: red; }
-  a:visited {
-    color: green; }
-
-/*-------------------mixin定义一些代码片段，*/
-/*多组传参*/
-.box {
-  border: 1px solid #ccc;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
-
-.demo {
-  margin-left: auto;
-  margin-right: auto; }
-
-.box-border {
-  border: 1px solid #ccc;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px; }
-
-/*-------------------扩展 继承*/
-.message, .success, .error {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333; }
-
-.success {
-  border-color: green; }
-
-.error {
-  border-color: red; }
-
-/*-------------------运算*/
-.container {
-  width: 100%; }
-
-article[role="main"] {
-  float: left;
-  width: 62.5%; }
-
-aside[role="complimentary"] {
-  float: right;
-  width: 31.25%; }
-
 /*-------------------导入reset------------*/
 html {
   font-family: sans-serif;
@@ -312,3 +226,88 @@ a:active {
         font-size: 40px !important;
     }
 }*/
+/*-------------------变量*/
+h1 {
+  /*局部变量*/
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  color: #333; }
+
+.selected {
+  border: 1px solid #F90; }
+
+/*-------------------嵌套*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*-------------------混合*/
+ul.plain {
+  color: #444;
+  list-style: none; }
+  ul.plain li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0px; }
+
+/*-------------------传参*/
+a {
+  color: blue; }
+  a:hover {
+    color: red; }
+  a:visited {
+    color: green; }
+
+/*-------------------mixin定义一些代码片段，*/
+/*多组传参*/
+.box {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
+
+.demo {
+  margin-left: auto;
+  margin-right: auto; }
+
+.box-border {
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+/*-------------------扩展 继承*/
+.message, .success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+/*-------------------运算*/
+.container {
+  width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+aside[role="complimentary"] {
+  float: right;
+  width: 31.25%; }
