@@ -40,7 +40,7 @@ gulp.task('cloneFile',function(){
 
 /*转换sass*/
 gulp.task('sass',function(){
-	gulp.src('./src/sass/*.+(scss|sass|css)')
+	gulp.src('./src/sass/**/*.+(scss|sass|css)')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('./src/css'))
 		.pipe(browserSync.reload({
