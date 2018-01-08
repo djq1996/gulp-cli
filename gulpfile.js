@@ -40,7 +40,7 @@ gulp.task('cloneFile',function(){
 
 /*转换sass*/
 gulp.task('sass',function(){
-	gulp.src('./src/sass/**/*.+(scss|sass|css)')
+	gulp.src('./src/sass/**/*')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('./src/css'))
 		.pipe(browserSync.reload({
@@ -59,7 +59,7 @@ gulp.task('imageMin',function(){
 gulp.task('dist',['message','clear-dist','cloneFile','imageMin']);
 
 gulp.task('default',['browserSync','sass'] ,function(){
-	  gulp.watch('./src/sass/**/*.scss', ['sass']);
+	  gulp.watch('./src/sass/**/*', ['sass']);
 	  gulp.watch('./src/**/*.html', browserSync.reload);
 	  gulp.watch('./src/js/**/*', browserSync.reload);
 	  gulp.watch('./src/img/**/*', browserSync.reload);
